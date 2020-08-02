@@ -30,7 +30,7 @@ const ProfileSchema = new mongoose.Schema({
   },
   experience: [
     {
-      tittle: {
+      title: {
         type: String,
         required: true,
       },
@@ -47,7 +47,6 @@ const ProfileSchema = new mongoose.Schema({
       },
       to: {
         type: Date,
-        required: true,
       },
       current: {
         type: Boolean,
